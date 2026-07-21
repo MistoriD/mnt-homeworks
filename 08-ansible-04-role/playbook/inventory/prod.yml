@@ -1,0 +1,24 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: 158.160.143.145
+  vars:
+    ansible_connection_type: paramiko
+    ansible_user: mistorid
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_host: 158.160.236.89
+  vars:
+    ansible_connection_type: paramiko
+    ansible_user: mistorid
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 158.160.223.6
+  vars:
+    ansible_connection_type: paramiko
+    ansible_user: mistorid
+
+    https://mirror.yandex.ru/centos/8-stream/AppStream/x86_64/os/

@@ -20,5 +20,3 @@ vector:
   vars:
     ansible_connection_type: paramiko
     ansible_user: mistorid
-
-    https://mirror.yandex.ru/centos/8-stream/AppStream/x86_64/os/
